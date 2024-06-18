@@ -11,7 +11,7 @@ import SwiftUI
 struct ChordJamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           Level1View()
         }
     }
 }

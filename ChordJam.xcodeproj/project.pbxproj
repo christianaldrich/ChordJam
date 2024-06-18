@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		BAE760762C205801002C56B3 /* ChordJamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE760752C205801002C56B3 /* ChordJamApp.swift */; };
-		BAE760782C205801002C56B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE760772C205801002C56B3 /* ContentView.swift */; };
+		BAE760782C205801002C56B3 /* TuningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE760772C205801002C56B3 /* TuningView.swift */; };
 		BAE7607A2C205803002C56B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE760792C205803002C56B3 /* Assets.xcassets */; };
 		BAE7607D2C205803002C56B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7607C2C205803002C56B3 /* Preview Assets.xcassets */; };
+		BAEDEC712C2097F900752435 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC702C2097F900752435 /* AudioKit */; };
+		BAEDEC732C209F0100752435 /* ChordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC722C209F0100752435 /* ChordController.swift */; };
+		BAEDEC762C20A31A00752435 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC752C20A31A00752435 /* AudioKit */; };
+		BAEDEC792C20A32200752435 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC782C20A32200752435 /* AudioKitEX */; };
+		BAEDEC7C2C20A33C00752435 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC7B2C20A33C00752435 /* AudioKitUI */; };
+		BAEDEC7F2C20A36000752435 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC7E2C20A36000752435 /* SoundpipeAudioKit */; };
+		BAEDEC812C21501800752435 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC802C21501800752435 /* LevelsView.swift */; };
+		BAEDEC832C2151DC00752435 /* LevelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC822C2151DC00752435 /* LevelsController.swift */; };
+		BAEDEC862C2163A800752435 /* Level1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC852C2163A800752435 /* Level1View.swift */; };
+		BAEDEC882C2163C800752435 /* ModalLevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC872C2163C800752435 /* ModalLevel1.swift */; };
+		BAEDEC8B2C216DB000752435 /* Tonic in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC8A2C216DB000752435 /* Tonic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BAE760722C205801002C56B3 /* ChordJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE760752C205801002C56B3 /* ChordJamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordJamApp.swift; sourceTree = "<group>"; };
-		BAE760772C205801002C56B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAE760772C205801002C56B3 /* TuningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningView.swift; sourceTree = "<group>"; };
 		BAE760792C205803002C56B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE7607C2C205803002C56B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAEDEC722C209F0100752435 /* ChordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordController.swift; sourceTree = "<group>"; };
+		BAEDEC802C21501800752435 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		BAEDEC822C2151DC00752435 /* LevelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsController.swift; sourceTree = "<group>"; };
+		BAEDEC852C2163A800752435 /* Level1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1View.swift; sourceTree = "<group>"; };
+		BAEDEC872C2163C800752435 /* ModalLevel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLevel1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEDEC8B2C216DB000752435 /* Tonic in Frameworks */,
+				BAEDEC792C20A32200752435 /* AudioKitEX in Frameworks */,
+				BAEDEC7F2C20A36000752435 /* SoundpipeAudioKit in Frameworks */,
+				BAEDEC762C20A31A00752435 /* AudioKit in Frameworks */,
+				BAEDEC7C2C20A33C00752435 /* AudioKitUI in Frameworks */,
+				BAEDEC712C2097F900752435 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,12 @@
 		BAE760742C205801002C56B3 /* ChordJam */ = {
 			isa = PBXGroup;
 			children = (
+				BAEDEC842C21639400752435 /* Level1 */,
 				BAE760752C205801002C56B3 /* ChordJamApp.swift */,
-				BAE760772C205801002C56B3 /* ContentView.swift */,
+				BAE760772C205801002C56B3 /* TuningView.swift */,
+				BAEDEC722C209F0100752435 /* ChordController.swift */,
+				BAEDEC802C21501800752435 /* LevelsView.swift */,
+				BAEDEC822C2151DC00752435 /* LevelsController.swift */,
 				BAE760792C205803002C56B3 /* Assets.xcassets */,
 				BAE7607B2C205803002C56B3 /* Preview Content */,
 			);
@@ -65,6 +91,15 @@
 				BAE7607C2C205803002C56B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAEDEC842C21639400752435 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDEC852C2163A800752435 /* Level1View.swift */,
+				BAEDEC872C2163C800752435 /* ModalLevel1.swift */,
+			);
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +118,14 @@
 			dependencies = (
 			);
 			name = ChordJam;
+			packageProductDependencies = (
+				BAEDEC702C2097F900752435 /* AudioKit */,
+				BAEDEC752C20A31A00752435 /* AudioKit */,
+				BAEDEC782C20A32200752435 /* AudioKitEX */,
+				BAEDEC7B2C20A33C00752435 /* AudioKitUI */,
+				BAEDEC7E2C20A36000752435 /* SoundpipeAudioKit */,
+				BAEDEC8A2C216DB000752435 /* Tonic */,
+			);
 			productName = ChordJam;
 			productReference = BAE760722C205801002C56B3 /* ChordJam.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,13 @@
 				Base,
 			);
 			mainGroup = BAE760692C205801002C56B3;
+			packageReferences = (
+				BAEDEC742C20A31A00752435 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				BAEDEC772C20A32200752435 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				BAEDEC7A2C20A33C00752435 /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				BAEDEC7D2C20A36000752435 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				BAEDEC892C216DB000752435 /* XCRemoteSwiftPackageReference "Tonic" */,
+			);
 			productRefGroup = BAE760732C205801002C56B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE760782C205801002C56B3 /* ContentView.swift in Sources */,
+				BAE760782C205801002C56B3 /* TuningView.swift in Sources */,
+				BAEDEC832C2151DC00752435 /* LevelsController.swift in Sources */,
+				BAEDEC812C21501800752435 /* LevelsView.swift in Sources */,
+				BAEDEC862C2163A800752435 /* Level1View.swift in Sources */,
 				BAE760762C205801002C56B3 /* ChordJamApp.swift in Sources */,
+				BAEDEC882C2163C800752435 /* ModalLevel1.swift in Sources */,
+				BAEDEC732C209F0100752435 /* ChordController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +330,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "perlu mic";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +360,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "perlu mic";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +401,81 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BAEDEC742C20A31A00752435 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		BAEDEC772C20A32200752435 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		BAEDEC7A2C20A33C00752435 /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.7;
+			};
+		};
+		BAEDEC7D2C20A36000752435 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+		BAEDEC892C216DB000752435 /* XCRemoteSwiftPackageReference "Tonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Tonic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BAEDEC702C2097F900752435 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKit;
+		};
+		BAEDEC752C20A31A00752435 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEDEC742C20A31A00752435 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		BAEDEC782C20A32200752435 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEDEC772C20A32200752435 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		BAEDEC7B2C20A33C00752435 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEDEC7A2C20A33C00752435 /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		BAEDEC7E2C20A36000752435 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEDEC7D2C20A36000752435 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		BAEDEC8A2C216DB000752435 /* Tonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEDEC892C216DB000752435 /* XCRemoteSwiftPackageReference "Tonic" */;
+			productName = Tonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BAE7606A2C205801002C56B3 /* Project object */;
 }
