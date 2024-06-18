@@ -22,6 +22,8 @@
 		BAEDEC862C2163A800752435 /* Level1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC852C2163A800752435 /* Level1View.swift */; };
 		BAEDEC882C2163C800752435 /* ModalLevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC872C2163C800752435 /* ModalLevel1.swift */; };
 		BAEDEC8B2C216DB000752435 /* Tonic in Frameworks */ = {isa = PBXBuildFile; productRef = BAEDEC8A2C216DB000752435 /* Tonic */; };
+		BAEDEC8D2C21EB0200752435 /* CombinedLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC8C2C21EB0200752435 /* CombinedLevelsView.swift */; };
+		BAEDEC8F2C21EBB600752435 /* FinishLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDEC8E2C21EBB600752435 /* FinishLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		BAEDEC822C2151DC00752435 /* LevelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsController.swift; sourceTree = "<group>"; };
 		BAEDEC852C2163A800752435 /* Level1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1View.swift; sourceTree = "<group>"; };
 		BAEDEC872C2163C800752435 /* ModalLevel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLevel1.swift; sourceTree = "<group>"; };
+		BAEDEC8C2C21EB0200752435 /* CombinedLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedLevelsView.swift; sourceTree = "<group>"; };
+		BAEDEC8E2C21EBB600752435 /* FinishLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				BAEDEC842C21639400752435 /* Level1 */,
+				BAEDEC8E2C21EBB600752435 /* FinishLevel.swift */,
 				BAE760752C205801002C56B3 /* ChordJamApp.swift */,
+				BAEDEC8C2C21EB0200752435 /* CombinedLevelsView.swift */,
 				BAE760772C205801002C56B3 /* TuningView.swift */,
 				BAEDEC722C209F0100752435 /* ChordController.swift */,
 				BAEDEC802C21501800752435 /* LevelsView.swift */,
@@ -189,8 +195,10 @@
 			files = (
 				BAE760782C205801002C56B3 /* TuningView.swift in Sources */,
 				BAEDEC832C2151DC00752435 /* LevelsController.swift in Sources */,
+				BAEDEC8D2C21EB0200752435 /* CombinedLevelsView.swift in Sources */,
 				BAEDEC812C21501800752435 /* LevelsView.swift in Sources */,
 				BAEDEC862C2163A800752435 /* Level1View.swift in Sources */,
+				BAEDEC8F2C21EBB600752435 /* FinishLevel.swift in Sources */,
 				BAE760762C205801002C56B3 /* ChordJamApp.swift in Sources */,
 				BAEDEC882C2163C800752435 /* ModalLevel1.swift in Sources */,
 				BAEDEC732C209F0100752435 /* ChordController.swift in Sources */,

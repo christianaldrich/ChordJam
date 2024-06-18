@@ -102,13 +102,10 @@ class LevelsController: ObservableObject, HasAudioEngine{
                 pointsEm = 0
                 pointsG = 0
                 pointsD = 0
+
             }
             
         }
 //        Tonic.cho
-    }
-    
-    func validate(){
-        var testValidate = ChordController()
     }
 }
