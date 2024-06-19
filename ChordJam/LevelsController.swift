@@ -98,10 +98,10 @@ class LevelsController: ObservableObject, HasAudioEngine{
             
             if pointsC >= 1.0 {
                 print("successfully played the C chord!")
-                pointsC = 0
-                pointsEm = 0
-                pointsG = 0
-                pointsD = 0
+//                pointsC = 0
+//                pointsEm = 0
+//                pointsG = 0
+//                pointsD = 0
 
             }
             

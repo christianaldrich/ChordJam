@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct CombinedLevelsView: View {
+    @StateObject var manager = LevelsController()
+    @State private var showNextLevelView = false
     @State private var showLevel1View = false
+    
     var body: some View {
         Group {
-                    if showLevel1View {
-                        Level1View()
+                   if showLevel1View {
+                        Level1View(manager: manager)
                     } else {
                         ModalLevel1()
                             .onAppear {

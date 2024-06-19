@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Level1View: View {
     @StateObject var manager = LevelsController()
+    @State var showNextLevelView = false
     
     var body: some View {
             
@@ -17,6 +18,7 @@ struct Level1View: View {
                 .resizable()
             
             HStack{
+                
                 Spacer()
                 
                 VStack(alignment: .leading){
@@ -49,6 +51,11 @@ struct Level1View: View {
                 }
                 
             }
+//            Button(action: {
+//                showNextLevelView = true
+//            }, label: {
+//                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+//            })
             
             
             Image("Fingering")
@@ -56,6 +63,9 @@ struct Level1View: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 96, height: 123)
                 .offset(x: 350, y: 100)
+            
+//            Text("\(manager.pointsC)")
+            
         }
         .ignoresSafeArea()
         .onAppear(perform: {
@@ -64,11 +74,18 @@ struct Level1View: View {
         .onDisappear(perform: {
             manager.stop()
         })
+        .onChange(of: manager.pointsC >= 1.0){
+            showNextLevelView = true
+        }
+        .fullScreenCover(isPresented: $showNextLevelView) {
+                    FinishLevel()
+        }
+        
 
             
     }
 }
 
 #Preview {
-    Level1View()
+    Level1View(manager: LevelsController())
 }

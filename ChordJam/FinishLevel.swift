@@ -28,17 +28,21 @@ struct FinishLevel: View {
                 }
                 
                 HStack(spacing: 100.0){
-                    Image("RetryButton")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 51, height: 95)
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Image("RetryButton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 51, height: 95)
+                    })
                     
     //                Spacer()
                     
-                    Image("ContinueButton")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 86,height: 94)
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Image("ContinueButton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 86,height: 94)
+                    })
                 }
                 .padding()
             }

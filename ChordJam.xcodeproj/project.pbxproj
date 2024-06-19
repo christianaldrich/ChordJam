@@ -79,12 +79,12 @@
 			children = (
 				BAEDEC842C21639400752435 /* Level1 */,
 				BAEDEC8E2C21EBB600752435 /* FinishLevel.swift */,
+				BAEDEC822C2151DC00752435 /* LevelsController.swift */,
 				BAE760752C205801002C56B3 /* ChordJamApp.swift */,
 				BAEDEC8C2C21EB0200752435 /* CombinedLevelsView.swift */,
 				BAE760772C205801002C56B3 /* TuningView.swift */,
 				BAEDEC722C209F0100752435 /* ChordController.swift */,
 				BAEDEC802C21501800752435 /* LevelsView.swift */,
-				BAEDEC822C2151DC00752435 /* LevelsController.swift */,
 				BAE760792C205803002C56B3 /* Assets.xcassets */,
 				BAE7607B2C205803002C56B3 /* Preview Content */,
 			);
